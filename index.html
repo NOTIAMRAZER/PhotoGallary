@@ -1,0 +1,153 @@
+<html lang="en">
+
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Charecters From The Famous Jujutsu-Kaisen</a>
+            </div>
+    
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+    
+        </nav>
+        <a href="https://jujutsu-kaisen.fandom.com/wiki/List_of_Characters">
+        <img src="logo.jpg">
+        </a>
+
+        <h1>Some of the charecters from the famous - Jujutsu Kaisen</h1>
+        <hr>
+        <br>
+
+      
+        <h2 class="btn btn-info">Gallery View</h2>
+        <br>
+        <br>
+
+        <span>
+            <img id="gal" src="yuji.jpg">
+            <img id="gal" src="Satoru.png">
+            <img id="gal" src="megumi.jpg">
+        </span>
+            <br>
+            <br>
+        <span>
+            <img id="gal" src="nobara.jpg">
+            <img id="gal" src="inumaki.webp">
+            <img id="gal" src="masamichi.jpg">
+        </span>
+     
+        <br>
+        <br>
+        <br>
+
+        <h2 class="btn btn-info">Sliding view</h2>
+        <br>
+        <br>
+
+        <div id="myCarouse2" class="carousel slide">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="yuji.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Yuji Itadori</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="Satoru.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Satoru Gogo</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="megumi.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Megumi Fushiguro</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="nobara.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Nobara Kugisaki</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="inumaki.webp" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Toge Inumaki</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="masamichi.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Masamichi Yaga</p>
+                        </div>
+                    </center>
+                </div>
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarouse2" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarouse2" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
